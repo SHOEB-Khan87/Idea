@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>  
+    let check = 0;
+        function change(){
+            let he = document.getElementById("nav")
+          
+            if(check === 0){
+               he.style.height = "370px"
+               check = 1
+               console.log("hell")
+            }else{
+                he.style.height = "60px"
+                check = 0;
+                console.log("bell")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class='logo'>
+        <div>
+            <img src="./Assets/first.png" alt='logo' height="70px" width="260px" />
+
+        </div>
+        <div class="hide">
+            <img src="./Assets/second.png" alt='logo' height="60px" style="border-radius: 50%;" width="100px" />
+
+        </div>
+        <div class="hide" style="display: flex;align-items: center;gap: 8px;">
+            <div class="hide">
+                <img src="./Assets/third.png" alt='logo' height="50px" width="50px" />
+            </div>
+
+            <div class="hide">
+                <p class="p-color">second medical opinion</p>
+                <p class="bottom">Book Consultation</p>
+            </div>
+
+
+        </div>
+        <div class="hide" style="display: flex;align-items: center;gap: 8px;">
+            <div class="hide">
+                <img src="./Assets/four.png" alt='logo' height="45px" width="45px" />
+            </div>
+            <div class="hide">
+                <p class="p-color">Call us On</p>
+                <p class="bottom"> 985&nbsp;896&nbsp;2222</p>
+            </div>
+
+
+        </div>
+        <div class="hide1" style="display: flex;align-items: center;gap: 8px;">
+            <div class="hide1">
+                <img src="./Assets/five.png" alt='logo' height="50px" width="50px" />
+            </div>
+            <div class="hide1">
+                <p class="p-color">Email Us On</p>
+                <p class="bottom">info@mediretreats.com</p>
+            </div>
+
+        </div>
+        <div class="drop-down hide2" style="display: flex;align-items: center;gap: 20px;cursor: pointer;">
+            <div class="wrapper hide2">
+                <img src="Assets/india.png" height="30px" width="50px" class="selectedImg" alt="flags">
+            </div>
+            <img src="./Assets/caret.png" class="hide2" alt="caret" width="10px" height="10px" />
+            <div class="list">
+                <div class="item">
+                    <img src="./Assets/india.png" height="50px" width="50px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/bangla.png" height="60px" width="60px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/china.png" height="70px" width="70px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/newzeland.png" height="60px" width="60px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/westIndies.png" height="60px" width="60px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/saudi.png" height="60px" width="60px" alt="flags" />
+                </div>
+                <div class="item">
+                    <img src="./Assets/america.jpeg" height="60px" width="60px" alt="flags" />
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="nav" id="nav">
+        <img onclick="change()"   class="menu" src="./Assets/menu.jpeg" style="border-radius: 50%;margin-top: -1px;" height="50px"
+            width="50px" alt="menu" />
+        <a id="res" class="set res" href="#" style="margin-left: 30px;">Home</a>
+        <a class="res1" href="#">About</a>
+        <a class="res2" href="#">Treatments <span style="color: white;"> +</span></a>
+        <a class="res3" href="#">Destinations <span style="color: white;"> +</span> </a>
+        <a class="res4" href="#">Hospitals</a>
+        <a class="res5" href="#">FAQs</a>
+        <a class="res6" href="#">Blog</a>
+        <a class="res7" class="set" href="#" style="margin-right: 60px;">Request A Quote</a>
+        <input class="set" id="input" type="text" placeholder="Search" />
+
+    </div>
+    <div>
+        <img src="./Assets/Screenshot 2023-09-01 at 9.19.35 AM.png" style="max-width: 100%;margin: 0px;height:400px;"
+            alt="banner" />
+
+    </div>
+
+    <div class="param">
+        <a href="#" style="margin-left: 60px;">Overview</a>
+        <a href="#">Eligibility</a>
+        <a href="#">Preparation </a>
+        <a href="#">About Treatment </a>
+        <a href="#">Post-Treatment Care</a>
+        <a href="#">Recovery Tips</a>
+        <a href="#">FAQs</a>
+        <a href="#">Patient stories</a>
+
+    </div>
+    <hr style="margin-top: 30px;" />
+
+    <div class="paragraph">
+        <div style="width: 50%; padding: 20px;">
+            <h4 style="margin-bottom: 35px;">Team Overview<span style="color: red;">.</span></h4>
+            <p style="margin-bottom: 35px;color: grey;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <p style="margin-bottom: 35px;color: grey;">It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                to using 'Content here, content here',
+                making it look like readable English. </p>
+            <p style="margin-bottom: 35px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+        </div>
+        <div class="pb" style="width: 50%;padding: 20px;padding-left: 160px;">
+            <img src="./Assets/firstD.png" alt="doctor" style="max-width: 100%;max-height: auto;" />
+        </div>
+    </div>
+
+    <hr style="border: 1px dashed deepskyblue; max-width: 1350px;margin-top: -10px;" />
+
+
+    <div class="form">
+        <div style="max-width: 70%; padding: 20px;padding-right: 30px;">
+            <h4 style="margin-bottom: 35px;">Eligibilty Of Treatment<span style="color: red;">.</span></h4>
+
+            <p style="margin-bottom: 25px;color: grey;">It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                to using 'Content here, content here',
+                making it look like readable English. </p>
+            <p style="margin-bottom: 25px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+                text.
+            </p>
+            <ul style="list-style-type:circle;color: deepskyblue;">
+                <li style="margin-bottom: 15px;"><span style="color: grey;">Contrary to popular belief, Lorem Ipsum is
+                        not simply random
+                        text. </li> </span>
+                <li style="margin-bottom: 15px;"><span style="color: grey;"> Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed
+                        to using 'Content here, </li></span>
+                <li style="margin-bottom: 15px;"><span style="color: grey;">of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed
+                        to using 'Content here, content here',</li> </span>
+            </ul>
+        </div>
+
+        <div class="mainF" style="max-width: 30%; padding: 20px;">
+            <form style="display: flex;flex-direction: column;justify-content: center;">
+                <h3 style="color: deepskyblue;">Need Help?</h3>
+                <p style="color: grey;margin-top: -10px;">Just Let Us Know. We will be happy to assist you</p>
+                <input class="text" style="width: 100%;height: 40px;" placeholder="Fullname" type="text" />
+                <input class="text" style="width: 100%;height: 40px;" placeholder="Email" type="email" />
+                <input class="text" style="width: 100%;height: 40px;" placeholder="Phone Number" type="number" />
+                <textarea style="height: 60px;" class="text" style="width: 100%;height: auto;"
+                    placeholder="Describe Your Treatment Requirement"></textarea>
+                <button class="text" style="background-color: deepskyblue;color: white;height: 50px;">Send
+                    Enquire</button>
+
+            </form>
+        </div>
+    </div>
+
+    <hr class="hr" style="border: 1px dashed deepskyblue; max-width: 850px;margin-top: -140px;margin-left: 60px;" />
+
+
+    <div class="third">
+        <h3>Preparation Before Treatment<span style="color: red;">.</span></h3>
+        <p style="margin-bottom: 25px;color: grey;">It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+        </p>
+        <p style="margin-bottom: 25px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+            text.
+        </p>
+        <ul style="list-style-type:circle;color: deepskyblue;">
+            <li style="margin-bottom: 15px;"><span style="color: grey;">Contrary to popular belief, Lorem Ipsum is
+                    not simply random
+                    text. </li> </span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;"> Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed
+                    to using 'Content here, </li></span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;">of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed
+                    to using 'Content here, content here',</li> </span>
+        </ul>
+    </div>
+
+    <hr class="hr1" style="border: 1px dashed deepskyblue; max-width: 850px;margin-left: 60px;" />
+
+    <div class="four">
+        <h3>About Treatment<span style="color: red;">.</span></h3>
+        <p style="margin-bottom: 25px;color: grey;">It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+        </p>
+        <p style="margin-bottom: 25px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+            text.
+        </p>
+        <ul style="list-style-type:circle;color: deepskyblue;">
+            <li style="margin-bottom: 15px;"><span style="color: grey;">Contrary to popular belief, Lorem Ipsum is
+                    not simply random
+                    text. </li> </span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;"> Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed
+                    to using 'Content here, </li></span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;">of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed
+                    to using 'Content here, content here',</li> </span>
+        </ul>
+    </div>
+
+    <hr class="hr2" style="border: 1px dashed deepskyblue; max-width: 850px;margin-left: 60px;" />
+
+    <div class="five">
+        <h3>Post-Treatment Care Treatment<span style="color: red;">.</span></h3>
+        <p style="margin-bottom: 25px;color: grey;">It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+        </p>
+        <p style="margin-bottom: 25px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+            text.
+        </p>
+        <ul style="list-style-type:circle;color: deepskyblue;">
+            <li style="margin-bottom: 15px;"><span style="color: grey;">Contrary to popular belief, Lorem Ipsum is
+                    not simply random
+                    text. </li> </span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;"> Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed
+                    to using 'Content here, </li></span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;">of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed
+                    to using 'Content here, content here',</li> </span>
+        </ul>
+    </div>
+
+
+    <hr class="hr3" style="border: 1px dashed deepskyblue; max-width: 850px;margin-left: 60px;" />
+
+    <div class="six">
+        <h3>Treatment Recovery Tips<span style="color: red;">.</span></h3>
+        <p style="margin-bottom: 25px;color: grey;">It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+        </p>
+        <p style="margin-bottom: 25px;color: grey;">Contrary to popular belief, Lorem Ipsum is not simply random
+            text.
+        </p>
+        <ul style="list-style-type:circle;color: deepskyblue;">
+            <li style="margin-bottom: 15px;"><span style="color: grey;">Contrary to popular belief, Lorem Ipsum is
+                    not simply random
+                    text. </li> </span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;"> Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed
+                    to using 'Content here, </li></span>
+            <li style="margin-bottom: 15px;"><span style="color: grey;">of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed
+                    to using 'Content here, content here',</li> </span>
+        </ul>
+    </div>
+
+
+    <hr class="hr4" style="border: 1px dashed deepskyblue; max-width: 850px;margin-left: 60px;" />
+
+
+    <div class="seven">
+        <h3>Treatment FAQs</h3>
+        <hr class="hr5" />
+        <button style="text-indent: 15px;" class="accordion"> How do i know the clinic i am searching is
+            varified?</button>
+        <div class="panel">
+            <div class="vertical">
+                <p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+        <hr class="hr6" />
+        <button style="text-indent: 15px;" class="accordion"> I can't travel alone so can some family member or friend
+            of mine accompany me?</button>
+        <div class="panel">
+            <div class="vertical">
+                <p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+        <hr class="hr7" />
+        <button style="text-indent: 15px;" class="accordion"> Can i see my doctor before i decide and what about my post
+            recovery?</button>
+        <div class="panel">
+            <div class="vertical">
+                <p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+        <hr class="hr8" />
+        <button style="text-indent: 15px;" class="accordion"> How do i share my reports and medical cases with the
+            clinic of my choice?</button>
+        <div class="panel">
+            <div class="vertical">
+                <p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+        <hr class="hr9" />
+    </div>
+
+
+    <hr class="hr10" style="border: 1px dashed deepskyblue; max-width: 850px;margin-left: 60px;margin-top: 30px;" />
+
+
+    
+
+
+    <div style="display: flex;justify-content: center;align-items: center;margin-bottom: 40px;">
+        <h3>Don't hesitate, contact us before help and service. <span
+                style="color: red;text-decoration: underline;"><a>Explore all Hospitals</a></span></h3>
+    </div>
+    <div 
+        style="background-image: url(./Assets/background.png);width: 100%;height: 300px;display: flex;justify-content: center;align-items: center;">
+        <div  style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+            <h3 style="color: white;">Stay healthy and strong to enjoy life</h3>
+            <h1 style="color: white;">We have team of healthcare experts</h1>
+            <span style="display: flex;gap: 10px;align-items: center;"><button
+                    style="color: white;background-color: blue;border: none;width: 140px;height: 40px;">Get In
+                    Touch</button> <span style="border-left: 1px solid white;height: 70px;"> </span>
+                <h2 style="color: white;">+91 898 777 9999</h2>
+            </span>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+    <div>
+        <div style="background-image: url(./Assets/back2new.png);width: 100%;height: auto;margin-top: -25px;background-repeat: no-repeat;background-size: cover;">
+            <div class="back" style="display: flex;justify-content: space-around;gap: 10px;">
+                <div style="margin-top: 30px;">
+                    <h4 style="color: white;">
+                        Important Links
+                    </h4>
+                    <ul style="list-style-type: none;color: white;">
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Home</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">About Us</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">FAQs</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Blog</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 30px;">
+                    <h4 style="color: white;">
+                        Top Hospitals
+                    </h4>
+                    <ul style="list-style-type: none;color: white;">
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Apollo Hospital
+                                Delhi</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">medanta Hospital
+                                gurgaon</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">max Hospital
+                                Delhi</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">jaslok Hospital
+                                Mumbai</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Artemis Hospital
+                                gurgaon</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Forti Hospital
+                                Gurgaon</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">View All </a></li>
+                    </ul>
+                </div>
+
+
+                <div style="margin-top: 30px;">
+                    <h4 style="color: white;">
+                        Speciality Treatment
+                    </h4>
+                    <ul style="list-style-type: none;color: white;">
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Knee replacement
+                                surgen</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Urologist</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Spine Surgen</a>
+                        </li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">ENT Surgen </a>
+                        </li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Orthopedic </a>
+                        </li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Cardiologist</a>
+                        </li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">View All </a></li>
+                    </ul>
+                </div>
+
+
+                <div style="margin-top: 130px;">
+                    <h4 style="color: white;">
+                        Medical Tourism Destinations
+                    </h4>
+                    <ul style="list-style-type: none;color: white;">
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Medical Tourism in
+                                India</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Medical Tourism in
+                                Sri Lanka</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">Medical Tourism in
+                                UAE</a></li>
+                        <li style="margin-bottom: 10px;"><span style="color: deepskyblue;">- </span> <a
+                                style="text-decoration: none;color: white;margin-left: 5px;" href="#">View All</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: center;">
+                <hr style="color: grey;width: 88%;margin-top: 30px;" />
+            </div>
+
+
+            <div class="back1" style="display: flex;justify-content: center;align-items: center;gap: 20px;margin-left: 100px;">
+                <div style="width: 33%;" class="IMG" >
+<img class="image" src="./Assets/downLogo.png" alt='logo' style="height: 100px;max-width: 100%;"/>
+                </div>
+                <div style="width: 33%;" class="IMG" >
+                    <h3 style="color: white;">About AAFIYA MEDIRETREATS</h3>
+                    <p style="color: white;"> What Does Lorem Ipsum Mean? Lorem ipsum, in graphical and textual context,
+                         refers to filler text that is placed in a document or visual presentation.
+                          Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated 
+                          as "pain itself."</p>
+                </div>
+                <div style="width: 33%;" class="marg IMG" style="margin-left: 150px">
+                    <span><h1 style="color: white;">Follow Us On</h1></span>
+                    <span>
+                        <img src="./Assets/facebook.png" alt="smile" height="40px" width="40px"/>
+                        <img src="./Assets/twitter.png" alt="smile" height="40px" width="40px"/>
+                        <img src="./Assets/png-clipart-social-media-instagram-login-graphy-ig-instagram-icon-rectangle-magenta.png" alt="smile" height="40px" width="40px"/>
+                        <img src="./Assets/png-clipart-youtube-play-button-computer-icons-youtube-youtube-logo-angle-rectangle-thumbnail.png" alt="smile" height="40px" width="40px"/>
+                    </span>
+                </div>
+
+            </div>
+            <div>
+                <img src="/Assets/Screenshot 2023-09-01 at 8.53.30 PM.png" width="100%"/>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        });
+    </script>
+    <script src="./index.js">
+
+    </script>
+
+</body>
+
+</html>
